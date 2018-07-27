@@ -1,0 +1,56 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ATM_COde
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please input the Amount you need.");
+            string amount = Console.ReadLine();
+            string notes = calculateTheDenominations(amount);
+            if (notes != null && notes != "")
+            {
+                Console.WriteLine("Please collect the notes from dispenser! Amount Dispensed in following order! Make sure its proper");
+                Console.WriteLine(notes);
+            }
+            else if (notes == "")
+            {
+                Console.WriteLine("Invalid Amount");
+            }
+            else
+            {
+                Console.WriteLine("We regrate for the inconvineance caused! we are facing some technical exception!. Please contact bank if amount is deducted from account!");
+            }
+            Console.ReadLine();
+
+        }
+
+        private static string calculateTheDenominations(string amount)
+        {
+            string notes = string.Empty;
+            try
+            {
+                try
+                {
+                    int _requestedAmount = Convert.ToInt32(amount);
+                }
+                catch (Exception)
+                {
+
+                    return notes = "";
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            return notes;
+        }
+    }
+}

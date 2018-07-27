@@ -1,0 +1,6 @@
+C:\Users\UX012316\source\repos\ATM_COde\ATM_COde\bin\Debug\ATM_COde.exe.config
+C:\Users\UX012316\source\repos\ATM_COde\ATM_COde\bin\Debug\ATM_COde.exe
+C:\Users\UX012316\source\repos\ATM_COde\ATM_COde\bin\Debug\ATM_COde.pdb
+C:\Users\UX012316\source\repos\ATM_COde\ATM_COde\obj\Debug\ATM_COde.csproj.CoreCompileInputs.cache
+C:\Users\UX012316\source\repos\ATM_COde\ATM_COde\obj\Debug\ATM_COde.exe
+C:\Users\UX012316\source\repos\ATM_COde\ATM_COde\obj\Debug\ATM_COde.pdb
